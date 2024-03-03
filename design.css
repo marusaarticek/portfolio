@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+@font-face {
+  font-family: "DM Sans Variable";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 1000;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/dm-sans:vf@latest/latin-wght-normal.woff2)
+    format("woff2-variations");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191,
+    U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+body {
+  background-color: rgb(16, 16, 16);
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+}
+
+.container {
+  max-width: 1450px;
+}
+
+.mar-nav {
+  margin-top: 300px;
+}
+
+.pad-sec2 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.bg-sec {
+  background-color: rgb(64, 33, 99);
+}
+
+.name {
+  font-family: "Roboto";
+  color: rgb(255, 255, 255) !important;
+  font-weight: 100;
+  font-size: 28px;
+  letter-spacing: 4px;
+  text-decoration: none;
+}
+
+.h {
+  font-size: 120px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  letter-spacing: -1px;
+  line-height: 0.8;
+  margin-top: 100px;
+}
+
+.proj-text {
+  font-family: "Roboto Condensed";
+  color: rgb(255, 255, 255) !important;
+  font-weight: 500;
+  font-size: 26px;
+  letter-spacing: 2px;
+}
+
+.a-button {
+  display: flex;
+  align-items: center;
+}
+
+.align-c {
+  display: flex;
+  align-items: center;
+}
+
+.btn-view {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100% !important;
+  height: 70px !important;
+  background-color: #00a59200 !important;
+  border-radius: 0px !important;
+  border-color: #fff;
+  border-width: 1px;
+  color: #ffffff !important;
+  font-weight: 400 !important;
+  text-align: center !important;
+  outline: none;
+  font-size: 15px !important;
+  font-family: "Roboto Condensed";
+  &:hover {
+    color: #181818 !important;
+    background-color: #b0ff39 !important;
+    border-color: #ffffff00;
+    font-weight: 600 !important;
+  }
+}
+
+.nav-items {
+  font-family: "Roboto Condensed";
+  color: rgb(255, 255, 255) !important;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+.c-study-sm {
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(255, 255, 255) !important;
+  font-weight: 300;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.case-study {
+  font-family: "Nunito Sans", sans-serif;
+  color: rgb(203, 255, 99) !important;
+  font-weight: 100;
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+.box1 {
+  background-color: #b34b0e;
+}
+
+.box2 {
+  background-color: #b34b0e;
+  /* background-color: #262c35; */
+}
+
+.box3 {
+  background-color: #b34b0e;
+}
+
+.gap {
+  height: 80%;
+}
+
+.title {
+  font-size: 300px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: -1px;
+  line-height: 0.8;
+  margin-top: 70px;
+  color: rgb(254, 171, 255);
+}
+
+.portfolio {
+  display: flex;
+  justify-content: center;
+  font-size: 120px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  letter-spacing: -1px;
+  line-height: 0.8;
+  margin-top: 200px;
+}
+
+.desc {
+  font-family: "DM Sans Variable";
+  color: rgb(255, 255, 255);
+  font-weight: 200;
+  font-size: 228px;
+  margin-top: 200px;
+  display: flex;
+  margin-right: auto;
+}
+
+.img-w {
+  width: 100%;
+  max-width: 1400px;
+}
+
+.cursorsm {
+  cursor: none;
+}
+
+.small {
+  background-color: #fff;
+  mix-blend-mode: difference;
+  width: 150px;
+  height: 150px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+
+@media (max-width: 600px) {
+  .portfolio {
+    font-size: 70px;
+  }
+  .mar-nav {
+    margin-top: 201px;
+  }
+  .title {
+    font-size: 100px;
+    margin-top: 0px;
+  }
+  .h {
+    font-size: 60px;
+  }
+  .btn-view {
+    width: 50% !important;
+  }
+  .a-button {
+    margin-top: 20px;
+  }
+}
