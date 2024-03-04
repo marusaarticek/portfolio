@@ -93,7 +93,7 @@ body {
   font-family: "Roboto Condensed";
   &:hover {
     color: #181818 !important;
-    background-color: #b0ff39 !important;
+    background-color: #d4ff39 !important;
     border-color: #ffffff00;
     font-weight: 600 !important;
   }
@@ -118,7 +118,7 @@ body {
 
 .case-study {
   font-family: "Nunito Sans", sans-serif;
-  color: rgb(203, 255, 99) !important;
+  color: #d4ff39!important;
   font-weight: 100;
   font-size: 15px;
   letter-spacing: 1px;
@@ -197,20 +197,36 @@ body {
   .portfolio {
     font-size: 70px;
   }
+
+  .pad-sec2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  } 
+
   .mar-nav {
     margin-top: 201px;
   }
   .title {
     font-size: 100px;
     margin-top: 0px;
+    line-height: 0.99;
   }
   .h {
-    font-size: 60px;
+    font-size: 50px;
   }
   .btn-view {
     width: 50% !important;
   }
   .a-button {
     margin-top: 20px;
+    padding-left: 45px;
   }
+}
+
+
+@media (min-width: 1500px) {
+  .container {
+    max-width: 1850px;
+  }
+  
 }
