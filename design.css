@@ -51,6 +51,16 @@ body {
   max-width: 1450px;
 }
 
+.main-button {
+  background-color: #1f1f1f;
+  color: #fff;
+  &:hover {
+    background-color: #121212;
+    color: #fff;
+  }
+}
+
+
 .mar-nav {
   margin-top: 300px;
 }
